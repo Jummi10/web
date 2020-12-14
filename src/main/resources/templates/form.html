@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <h1>Form Page</h1>
+  <h2>GET</h2>
+  <form action="http://localhost:8080/form/get" method="get">
+      <label for="name">Enter your name: </label>
+      <input type="text" name="name" id="name" required>
+
+      <input type="submit" value="Submit!">
+  </form>
+  <h2>POST</h2>
+  <form action="http://localhost:8080/form/post" method="post">
+    <label for="age">Enter your age: </label>
+    <input type="number" name="age" id="age" required>
+
+    <label for="email">Enter your email: </label>
+    <input type="email" name="email" id="email" required>
+
+    <input type="submit" value="Submit!">
+  </form>
+  <a href="http://localhost:8080/form-practice"><h2>Let's Practice</h2></a>
+</body>
+</html>

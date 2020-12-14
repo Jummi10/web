@@ -9,4 +9,14 @@ public class IndexController {
     public String getIndex() {
         return "index";
     }
+
+    @RequestMapping(value = "/next-page")
+    public String getNextPage() {
+        return "next-page";
+    }
+
+    @RequestMapping(value = "/form")
+    public String getFormPage() {
+        return "form";
+    }
 }
