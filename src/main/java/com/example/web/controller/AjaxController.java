@@ -10,11 +10,12 @@ public class AjaxController {
     @GetMapping("/ajax/get")
     @ResponseBody
     public ResponseEntity<String> sampleGet() {
-        // {
-        //   "message" : "hi?"
-        // }
         return ResponseEntity.ok("{\"message\" : \"hi?\"}");
     }
+
+    // {
+    //   "message" : "hi?"
+    // }
 
     @GetMapping("/ajax/practice")
     public String getPracticePage() {
