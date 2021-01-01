@@ -1,0 +1,27 @@
+### CREATE
+POST http://localhost:8080/articles
+Content-Type: application/json
+
+{
+  "title" : "제목",
+  "content" : "내용",
+  "author" : "작성자",
+  "tags" : ["태그1", "태그2"]
+}
+
+### READ
+GET http://localhost:8080/articles/1
+
+### UPDATE
+PUT http://localhost:8080/articles/1
+Content-Type: application/json
+
+{
+  "title" : "안녕하세요",
+  "content" : "제 이름은",
+  "author" : "김경준",
+  "tags" : ["입니다", "감사합니다"]
+}
+
+### DELETE
+DELETE http://localhost:8080/articles/1
