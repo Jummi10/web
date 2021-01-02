@@ -12,6 +12,9 @@ Content-Type: application/json
 ### READ
 GET http://localhost:8080/articles/1
 
+### READ
+GET http://localhost:8080/articles?author=김경준
+
 ### UPDATE
 PUT http://localhost:8080/articles/1
 Content-Type: application/json
